@@ -1,0 +1,96 @@
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.googlelogo {
+  width: 400px;
+  margin-top: 60px;
+  margin-bottom: -30px;
+}
+
+/* Navbar */
+.nav-link {
+  color: #666666;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #666666;
+  color: #666666;
+}
+
+.rounded-circle:hover {
+  box-shadow: 0px 0px 10px #A2A2A2;
+}
+
+/* Searchbar */
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Buttons */
+.buttons {
+  text-align: center;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.google-btn {
+  margin-right: 10px;
+  background-color: #e6e6e6 !important;
+  color: #666 !important;
+  border: none !important;
+}
+.google-btn:hover {
+  box-shadow: 0px 0px 5px #a6a6a6;
+}
+
+.luck-btn {
+  margin-right: 30px;
+  background-color: #e6e6e6 !important;
+  color: #666 !important;
+  border: none !important;
+}
+.luck-btn:hover {
+  box-shadow: 0px 0px 5px #a6a6a6;
+}
+
+.francais {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+/* Footer */
+.bot-nav {
+  width: 100%;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #e6e6e6;
+  background: #e6e6e6;
+}
+.bot-nav-left {
+  float: left;
+}
+.bot-nav-left a, .bot-nav-right a {
+  padding: 20px;
+}
+.bot-nav-right {
+  float: right;
+}
+.bot-nav a {
+  color: #666666;
+  text-decoration: none;
+}
+.bot-nav a:hover {
+  color: #404040;
+  text-decoration: none;
+}
