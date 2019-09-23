@@ -1,26 +1,26 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Page Title</title>
+  <meta charset="utf-8">
+  <title>Function scope example</title>
 </head>
 <body>
+
   <script>
-
-    let a = 10
-    console.log(a)
-    console.log(9 * a)
-    let b = 7 * a
-    console.log(b)
-    console.log("Hello, World!")
-    console.log(23 + 7)
-    console.log(34 + 6 + 70 + 23 + 333 + 2 + 20)
-    console.log((4 + 6 + 9) / 77)
-
-    const max = 57
-    let actual = max - 13
-    let percentage = actual / max
-    console.log(percentage)
-
+    var x = 1;
+    function a() {
+      var y = 2;
+      output(z);
+    }
+    function b() {
+      var z = 3;
+      output(y);
+    }
+    function output(value) {
+      var para = document.createElement('p');
+      document.body.appendChild(para);
+      para.textContent = 'Value: ' + value;
+    }
   </script>
 </body>
 </html>
