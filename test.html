@@ -12,14 +12,33 @@
 </head>
 <body>
 
-  <input class="numberInput" type="text">
-  <p></p>
+
 
   <script>
    function add7(n) {
     return n + 7
    }
-    console.log(4)
+    console.log(add7(4))
+
+    function multiply(n1, n2) {
+      return n1 * n2
+    }
+    console.log(multiply(4, 5))
+
+    function capitalize(params) {
+      if (typeof params === 'string') {
+        return params.charAt(0).toUpperCase() + params.slice(1);
+      }
+      return "That is not a word";
+    }
+
+    console.log (capitalize("michael"))
+
+    function lastLetter(string) {
+      return string.slice(-1)
+    }
+    console.log(lastLetter('abcd'))
+
   </script>
 </body>
 </html>
